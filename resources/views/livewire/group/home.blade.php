@@ -53,47 +53,8 @@
                                         <div class="tab-pane animated fadeIn show active" id="v-pills-tab4" role="tabpanel" aria-labelledby="v-pills-tab1">
                                         
                                             <div class="slimScroll b-b" data-height="385">
-                                            <ul id="menu">
-                                            @livewire('groups')
-                                            
-                                                <li><input type="checkbox" name="list" id="nivel1-1"><label for="nivel1-1">Nivel 1</label>
-                                                <ul class="interior">
-                                                        <li><input type="checkbox" name="list" id="nivel2-1"><label for="nivel2-1">Nivel 2</label>
-                                                        <ul class="interior">
-                                                            <li><a href="#r">Nivel 3</a></li>
-                                                            <li><a href="#r">Nivel 3</a></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li><input type="checkbox" name="list" id="nivel2-2"><label for="nivel2-2">Nivel 2</label>
-                                                        <ul class="interior">
-                                                            <li><a href="#r">Nivel 3</a></li>
-                                                            <li><a href="#r">Nivel 3</a></li>
-                                                            <li><a href="#r">Nivel 3</a></li>
-                                                            <li><a href="#r">Nivel 3</a></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li><a href="#r">Nivel 2</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><input type="checkbox" name="list" id="nivel1-2" checked=""><label for="nivel1-2">Nivel 1</label>
-                                                    <ul class="interior">
-                                                        <li><a href="#r">Nivel 2</a></li>
-                                                        <li><input type="checkbox" name="list" id="nivel2-3"><label for="nivel2-3">Nivel 2</label>
-                                                        <ul class="interior">
-                                                            <li><a href="#r">Nivel 3</a></li>
-                                                            <li><a href="#r">Nivel 3</a></li>
-                                                            </ul>
-                                                        </li>
-                                                        <li><input type="checkbox" name="list" id="nivel2-4"><label for="nivel2-4">Nivel 2</label>
-                                                        <ul class="interior">
-                                                            <li><a href="#r">Nivel 3</a></li>
-                                                            <li><a href="#r">Nivel 3</a></li>
-                                                            <li><a href="#r">Nivel 3</a></li>
-                                                            </ul>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="#r">Nivel 1</a></li>
+                                                <ul id="menu">
+                                                    @livewire('group.group-component')
                                                 </ul>
                                             </div>
                                         </div>

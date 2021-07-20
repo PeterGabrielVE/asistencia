@@ -41,7 +41,7 @@
             </a>
     
             </li>
-            <li class="treeview"><a href="{{ route('user')}}"><i class="icon icon-account_box light-green-text s-18"></i>Users</a>
+            <li class="treeview"><a href="{{ route('user')}}"><i class="icon icon-account_box light-green-text s-18"></i>Usuarios</a>
             </li>
             <li class="treeview no-b"><a href="#">
                 <i class="icon icon-package light-green-text s-18"></i>

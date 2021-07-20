@@ -23,7 +23,7 @@
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary close-btn" data-dismiss="modal">Close</button>
-                <button type="button" wire:click.prevent="store()" class="btn btn-primary close-modal">Save changes</button>
+                <button type="button" wire:click="store2" class="btn btn-primary close-modal">Save changes</button>
             </div>
         </div>
     </div>
